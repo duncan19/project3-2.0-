@@ -1,10 +1,10 @@
 body{
 background-color: lightgrey;
 }
-.titleofpage{
+/* .titleofpage{
   background-color: grey;
   color: black;
-}
+} */
 .result{
   display: none;
   background-color: orange;
