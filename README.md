@@ -5,7 +5,7 @@
 #### By _**{List of contributors}**_
 
 ## Description
-
+  _link to specs https://docs.google.com/document/d/1trvO7RJyXppjpiELIiSBm5J-MqrdBWshovt9eWreVwU/edit?usp=sharing ._
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
 
 ## Setup/Installation Requirements
