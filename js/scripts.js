@@ -6,5 +6,30 @@ $(document).ready(function(){
     var arrayOfUserNUm=[];
     var usersNumber = parseInt($("input#userinputtedNumber").val());
       console.log(usersNumber)
-    });
+      var numtoword = function(){
+      console.log("test")
+      var alterednumberfromuser = usersNumber
+      for(i=1; i <= usersNumber; i++){
+        arrayOfUserNUm.push(alterednumberfromuser)
+
+        alterednumberfromuser -= 1;
+        }
+        for (i = 0; i < arrayOfUserNUm.length; i ++){
+         if(arrayOfUserNUm[i].toString().includes(3))
+         {
+           arrayOfUserNUm[i] = 'test3';
+         }
+         else if (arrayOfUserNUm[i].toString().includes(2))
+         {
+           arrayOfUserNUm[i] = 'test2';
+         }
+         else if (arrayOfUserNUm[i].toString().includes(1))
+         {
+           arrayOfUserNUm[i] = 'test1';
+         }
+       }
+};
+console.log(arrayOfUserNUm)
+console.log(numtoword())
+});
 });
