@@ -5,3 +5,7 @@ background-color: lightgrey;
   background-color: grey;
   color: black;
 }
+.result{
+  display: none;
+  background-color: orange;
+}
