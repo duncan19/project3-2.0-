@@ -8,11 +8,11 @@ $(document).ready(function(){
       console.log(usersNumber)
       var numtoword = function(){
       console.log("test")
-      var alterednumberfromuser = usersNumber
+      var usersnumchange = usersNumber
       for(i=1; i <= usersNumber; i++){
-        arrayOfUserNUm.push(alterednumberfromuser)
+        arrayOfUserNUm.push(usersnumchange)
 
-        alterednumberfromuser -= 1;
+        usersnumchange -= 1;
         }
         for (i = 0; i < arrayOfUserNUm.length; i ++){
          if(arrayOfUserNUm[i].toString().includes(3))
@@ -28,8 +28,10 @@ $(document).ready(function(){
            arrayOfUserNUm[i] = 'test1';
          }
        }
+       console.log((arrayOfUserNUm))
+       var arrayforresult = arrayOfUserNUm.toString();
+       $("#result").text(arrayforresult)
 };
-console.log(arrayOfUserNUm)
 console.log(numtoword())
 });
 });
