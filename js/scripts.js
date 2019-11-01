@@ -1,8 +1,9 @@
 $(document).ready(function(){
   $("#userNumForm").submit(function(event){
     event.preventDefault();
-    var usersNum = parseInt($("input#userNumber").val());
-    var userNumArr=[];
-      console.log(usersNum)
+    $("#userNumForm").hide();
+    var arrayOfUserNUm=[];
+    var usersNumber = parseInt($("input#userinputtedNumber").val());
+      console.log(usersNumber)
     });
 });
