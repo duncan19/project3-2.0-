@@ -2,7 +2,6 @@ $(document).ready(function(){
   $("#userNumForm").submit(function(event){
     event.preventDefault();
     $("#userNumForm").hide();
-    $("#result").show();
     var arrayOfUserNUm=[];
     var usersNumber = parseInt($("input#userinputtedNumber").val());
       console.log(usersNumber)
@@ -31,6 +30,7 @@ $(document).ready(function(){
        console.log((arrayOfUserNUm))
        var arrayforresult = arrayOfUserNUm.toString();
        $("#result").text(arrayforresult)
+       $("#result").show();
 };
 console.log(numtoword())
 });
