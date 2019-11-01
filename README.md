@@ -1,37 +1,35 @@
-# _{Application Name}_
+# _Beep Boop_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _user puts in number and it returns number along with msg, 11.1.19}_
 
-#### By _**{List of contributors}**_
+#### By _**Duncan Robbins**_
 
 ## Description
   _link to specs https://docs.google.com/document/d/1trvO7RJyXppjpiELIiSBm5J-MqrdBWshovt9eWreVwU/edit?usp=sharing ._
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_user inputs number and it returns all the numbers leading up to it along with a series of beep boop or im sorry if it is a 1 2 3 respectively_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone this repository_
+* _open index.html_
+* _put in the number you want_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_no special servers are needed_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_Currently no known bugs_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_contact me at duncanrobbins19@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_HTML CSS bootstrap JQuery _
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*licensed under the MIT licensing act*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2019 **_Duncan Robbins_**

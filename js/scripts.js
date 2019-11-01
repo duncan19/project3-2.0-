@@ -16,15 +16,15 @@ $(document).ready(function(){
         for (i = 0; i < arrayOfUserNUm.length; i ++){
          if(arrayOfUserNUm[i].toString().includes(3))
          {
-           arrayOfUserNUm[i] = 'test3';
+           arrayOfUserNUm[i] = 'im sorry dave i cant od that';
          }
          else if (arrayOfUserNUm[i].toString().includes(2))
          {
-           arrayOfUserNUm[i] = 'test2';
+           arrayOfUserNUm[i] = 'Boop';
          }
          else if (arrayOfUserNUm[i].toString().includes(1))
          {
-           arrayOfUserNUm[i] = 'test1';
+           arrayOfUserNUm[i] = 'Beep';
          }
        }
        console.log((arrayOfUserNUm))
